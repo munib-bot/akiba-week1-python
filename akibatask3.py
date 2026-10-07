@@ -1,0 +1,6 @@
+length = input("enter the length of the rectangle:")
+width = input("enter the width of the rectangle:")
+area = int(length) * int(width)
+perimeter = 2 * (int(length) + int(width))
+print(f"area : {area} m²")
+print(f"perimeter :{perimeter} m")

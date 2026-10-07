@@ -1,0 +1,11 @@
+destination = input("Enter the destination: ")
+distance = float(input("Enter the distance in kilometers: "))
+ave_speed = float(input("Enter the average speed in km/h: "))
+time = distance / ave_speed
+print("                     ")
+print(f"destination {destination}")
+print(f"distance: {distance} km")
+print(f"average speed: {ave_speed} km/h")
+print("                                ")
+print(f"The estimated travel time to {destination} is {time} hours.")
+print(f"Estimated travel time to {destination}: {time * 60:.2f} minutes")
